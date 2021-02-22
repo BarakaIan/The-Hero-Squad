@@ -1,0 +1,61 @@
+<div class="jumbotron hero" >
+    {{#block "header"}}
+        <!DOCTYPE html>
+    <html>
+    <head>
+        <title>{{#block "tittle"}}Hero Squad{{/block}}</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Acme|Bangers|Poppins:500&display=swap" rel="stylesheet">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+        <link rel='stylesheet' type="text/css" href='/css/app.css'>
+    </head>
+    <body>
+    <nav class="navbar justify-content-center bg-dark">
+        <ul class="nav">
+            <li class="nav-item">
+
+                <a class="nav-link"href="/">HOME</a>
+            </li>
+            <li class="nav-item">
+            <li class="nav-item">
+                <a class="nav-link"href="/heroes/new">recruit new hero<a>
+            <li class="nav-item">
+                <a class="nav-link"href="/squads/new">Create a New Squad</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"href="/squads/new">Add Squad</a>
+            </li>
+
+
+        </ul>
+    </nav>
+<!--    <ul>-->
+<!--        <li><img src='' alt='A photo of a mountain.'/></li>-->
+<!--        <li><img src='/images/rockycoast.jpeg' alt='A photo of a a rocky beach.'/></li>-->
+<!--    </ul>-->
+
+
+    {{/block}}
+
+<div class="jumbotron">
+    <h1 class="text-center">Welcome To The Great Hero Squads</h1>
+    <h5 class="text-center">The Superhero Registry</h5>
+</div>
+
+<div>
+    {{#block "content"}}
+    {{/block}}
+</div>
+
+    {{#block "footer"}}
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+
+    </body>
+    </html>
+    {{/block}}
+
+</div>

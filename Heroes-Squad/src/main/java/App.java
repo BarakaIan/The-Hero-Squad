@@ -60,8 +60,10 @@ public class App {
             int age = Integer.parseInt(request.queryParams("age"));
             String power = request.queryParams("power");
             String weakness = request.queryParams("weakness");
+            int defence = Integer.parseInt(request.queryParams("defence"));
+            int strength = Integer.parseInt(request.queryParams("strength"));
 
-            Hero hero = new Hero(name, age, power, weakness);
+            Hero hero = new Hero(name, age, power, weakness, defence, strength);
 
             model.put("hero", hero);
             return new ModelAndView(model, "successHero.hbs");

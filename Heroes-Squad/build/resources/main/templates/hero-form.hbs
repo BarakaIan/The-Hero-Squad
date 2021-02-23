@@ -61,6 +61,14 @@
                     <label for="weakness">Weakness of the Hero</label>
                     <input type="text" id="weakness" name="weakness" class="form-control" required>
                 </div>
+                <div class="form-group">
+                    <label for="defence">Defence of the Hero</label>
+                    <input type="text" id="defence" name="defence" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="strength">Strength of the Hero</label>
+                    <input type="text" id="strength" name="strength" class="form-control" required>
+                </div>
 
 
                 <button class="btn btn-outline-secondary" type="submit">Save</button>
@@ -68,5 +76,8 @@
         {{/if}}
     </div>
 
+{{/partial}}
+{{#partial "styles"}}
+    <link rel='stylesheet' type="text/css" href='/css/styles.css'>
 {{/partial}}
 {{> layout.hbs}}

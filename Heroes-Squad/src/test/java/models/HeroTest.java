@@ -21,13 +21,13 @@ public class HeroTest {
 
     @Test
     public void InstantiatesCorrectly_true() {
-        Hero hero = new Hero("Abdul", 20, "fly", "die", 3);
+        Hero hero = new Hero("Abdul", 20, "fly", "die", 3, 3);
         assertEquals(true, hero instanceof Hero);
     }
 
     @Test
     public void getHeroName_true() {
-        Hero newHero = new Hero("Abdul", 20, "fly", "die", 3);
+        Hero newHero = new Hero("Abdul", 20, "fly", "die", 3, 4);
         assertEquals(true, newHero.getName() instanceof String);
     }
 //    @Test
@@ -38,13 +38,13 @@ public class HeroTest {
 
     @Test
     public void getHeroPower_true() {
-        Hero newHero = new Hero("Abdul", 20, "fly", "die", 3);
+        Hero newHero = new Hero("Abdul", 20, "fly", "die", 3, 5);
         assertEquals(true, newHero.getPower() instanceof String);
     }
 
     @Test
     public void getHeroWeakness_true() {
-        Hero newHero = new Hero("Abdul", 20, "fly", "die", 3);
+        Hero newHero = new Hero("Abdul", 20, "fly", "die", 3, 4);
         assertEquals(true, newHero.getWeakness() instanceof String);
     }
 

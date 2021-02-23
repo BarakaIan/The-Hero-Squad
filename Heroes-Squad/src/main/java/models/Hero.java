@@ -9,6 +9,8 @@ public class Hero {
     private int age;
     private String power;
     private String weakness;
+    private int defence;
+    private int strength;
     private String squadAlliance;
     private static List<Hero> hInstances = new ArrayList<>();
     private static boolean duplicate = false;
@@ -17,11 +19,13 @@ public class Hero {
 
 
 
-    public Hero(String name, int age, String power, String weakness) {
+    public Hero(String name, int age, String power, String weakness, int defence, int strength) {
         this.name = name;
         this.age = age;
         this.power = power;
         this.weakness = weakness;
+        this.defence = defence;
+        this.strength= strength;
         this.squadAlliance = squadAlliance;
         hInstances.add(this);
         findDuplicateHero(this);
@@ -73,7 +77,29 @@ public class Hero {
         this.weakness = weakness;
     }
 
+    public static ArrayList getHeroRegistry() {
+        return heroRegistry;
+    }
 
+    public static void setHeroRegistry(ArrayList heroRegistry) {
+        Hero.heroRegistry = heroRegistry;
+    }
+
+    public int getDefence() {
+        return defence;
+    }
+
+    public void setDefence(int defence) {
+        this.defence = defence;
+    }
+
+    public int getStrength() {
+        return strength;
+    }
+
+    public void setStrength(int strength) {
+        this.strength = strength;
+    }
 
     public static List<Hero> getAll() {
         return hInstances;

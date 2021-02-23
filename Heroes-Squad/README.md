@@ -7,13 +7,15 @@
 
 .Create a Squad object: They should have a max size, name, and a cause they're are dedicated to fighting (sexism, computer illiteracy, not covering your mouth when you sneeze, hogging bus seats with your backpack, passive-aggressive post-it notes, etc).
 
-.Allow users to assign Heros to a Squad. Each hero can only participate in one Squad at a time.
+.Allow users to assign Heroes to a Squad. Each hero can only participate in one Squad at a time.
 
-Installation and Prerequisites
+## Installation and Prerequisites
 First Install sdk Install java Install Intellij.
 
-Set-up
-Get a computer and internet. Clone the repository Git clone repository--link https://github.com/BarakaIan/The-Hero-Squad
+## Set-up
+Get a computer and internet.
+ Clone the repository Git clone 
+ repository--link https://github.com/BarakaIan/The-Hero-Squad
 
 Move into the directory cd directory name;
 
@@ -21,12 +23,10 @@ Open project on code editor code .
 
 Run the project on live server.
 
-BDD
-Enter encode or decode or exit app Enter message Enter key Enter exit or continue.
-
-Bugs
+## Bugs
 Currently there are no bugs but i will keep it updated with the latest trends.
 
-Link
-License
+## Link
+
+##License
 MIT licence

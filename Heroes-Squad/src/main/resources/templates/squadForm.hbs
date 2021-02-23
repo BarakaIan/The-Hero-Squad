@@ -1,12 +1,12 @@
-{{#partial "title"}}
-    Hello! Let's create a Squad!
+{{#partial "styles"}}
+    <link rel='stylesheet' type="text/css" href='/css/styles.css'>
 {{/partial}}
 
 
 
 {{#partial "content"}}
-    <body style="background-image: url('/images/visuals-0RPf107BLek-unsplash.jpg'); background-size:cover; background-repeat:no-repeat;
-    <form action="/success"   method="post">
+    <div class="success">
+        <form action ="/success"   method="post">
         <div class="form-group">
             <label for="size">Size of the squad</label>
             <input id="size" name="size" class="form-control" type="number" required>
@@ -24,7 +24,7 @@
         <button class="btn btn-success"type="submit"> Submit</button>
 
     </form>
-    </body>
+    </div>
 {{/partial}}
 
 {{> layout.hbs}}

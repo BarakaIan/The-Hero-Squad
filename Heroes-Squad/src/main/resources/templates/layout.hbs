@@ -1,4 +1,6 @@
-<div class="jumbotron hero" >
+{{#partial "styles"}}
+    <link rel='stylesheet' type="text/css" href='/css/styles.css'>
+{{/partial}}
     {{#block "header"}}
         <!DOCTYPE html>
     <html>
@@ -7,7 +9,7 @@
 
         <link href="https://fonts.googleapis.com/css?family=Acme|Bangers|Poppins:500&display=swap" rel="stylesheet">
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-        <link rel='stylesheet' type="text/css" href='/css/app.css'>
+        <link rel='stylesheet' type="text/css" href='/css/styles.css'>
     </head>
     <body>
     <nav class="navbar justify-content-center bg-dark">
@@ -37,7 +39,7 @@
 
     {{/block}}
 
-<div class="jumbotron">
+<div class="container">
     <h1 class="text-center">Welcome To The Great Hero Squads</h1>
     <h5 class="text-center">The Superhero Registry</h5>
 </div>
@@ -58,4 +60,4 @@
     </html>
     {{/block}}
 
-</div>
+

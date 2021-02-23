@@ -1,14 +1,81 @@
-html,
-body,
-header,
-label{
-color:white;
+body{
+background: url('../images/scott-webb-UU2PICtxgpA-unsplash.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-size: 20px;
+}
+.container{
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+text-align: center;
+text-decoration: underline;
+text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+color: white;
+font-size: large;
 }
 
-.form-control{
-background-color:none;
-opacity:0.8;
+#newHeroForm{
+color: white;
+text-align: center;
+max-width: 500px;
+height: auto;
+margin: 50px auto;
+padding: 20px 40px 30px;
+border-top-left-radius: 30px;
+border-bottom-right-radius: 30px;
+border-top-right-radius: 30px;
+border-bottom-left-radius: 30px;
+border-top: 10px solid #5f6c7d;
+border-bottom: 10px solid #888;
+border-left: 10px solid rgb(24, 15, 15);
+border-right: 10px solid rgb(24, 15, 15);
+box-shadow: 10px;
 }
-body{
+h2{
+font-size: 40px;
+color: black;
+text-shadow: 2px 2px;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+
+}
+
+.squad{
+color: white;
+text-align: center;
+max-width: 500px;
+height: auto;
+margin: 50px auto;
+padding: 20px 40px 30px;
+border-top-left-radius: 30px;
+border-bottom-right-radius: 30px;
+border-top-right-radius: 30px;
+border-bottom-left-radius: 30px;
+border-top: 10px solid #5f6c7d;
+border-bottom: 10px solid #888;
+border-left: 10px solid rgb(24, 15, 15);
+border-right: 10px solid rgb(24, 15, 15);
+box-shadow: 10px;
+}
+
+success{
+color: white;
+background: dark-blue;
+text-align: center;
+max-width: 500px;
+height: auto;
+margin: 50px auto;
+padding: 20px 40px 30px;
+border-top-left-radius: 30px;
+border-bottom-right-radius: 30px;
+border-top-right-radius: 30px;
+border-bottom-left-radius: 30px;
+border-top: 10px solid #5f6c7d;
+border-bottom: 10px solid #888;
+border-left: 10px solid rgb(24, 15, 15);
+border-right: 10px solid rgb(24, 15, 15);
+box-shadow: 10px;
 
 }

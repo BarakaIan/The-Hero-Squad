@@ -12,11 +12,11 @@ public class HeroTest {
     public void setUp() throws Exception {
     }
 
-//    @Test
-//    public void newHeroIsCreated_true(){
-//        Hero newHero = new Hero("Abdul",18, "Coding", "Sleeping",3);
-//        assertTrue(newHero instanceof Hero);
-//    }
+    @Test
+    public void newHeroIsCreated_true(){
+        Hero newHero = new Hero("Abdul",18, "Coding", "Sleeping",3, 5);
+        assertTrue(newHero instanceof Hero);
+    }
 
 
     @Test

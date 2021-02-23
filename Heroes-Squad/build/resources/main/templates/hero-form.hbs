@@ -1,9 +1,10 @@
+{{#partial "styles"}}
+    <link rel='stylesheet' type="text/css" href='/css/styles.css'>
+{{/partial}}
 {{#partial "content"}}
-    <body style="background: url('../images/scott-webb.jpg');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;');">
+    <br>
+    <br>
+    <br>
     <h2 class="text-center">Create a New Hero</h2>
     <div id="newHeroForm">
         {{#if updateHero}}
@@ -29,15 +30,15 @@
                            required>
                 </div>
                 <div class="form-group">
-                    <label for="weakness">Defense</label>
-                    <input type="text" id="weakness" name="weakness" class="form-control"
-                           value="{{updateHero.weakness}}"
+                    <label for="defense">Defense</label>
+                    <input type="text" id="defense" name="defense" class="form-control"
+                           value="{{updateHero.defense}}"
                            required>
                 </div>
                 <div class="form-group">
-                    <label for="weakness">Attack</label>
-                    <input type="text" id="weakness" name="weakness" class="form-control"
-                           value="{{updateHero.weakness}}"
+                    <label for="attack">Attack</label>
+                    <input type="text" id="attack" name="attack" class="form-control"
+                           value="{{updateHero.attack}}"
                            required>
                 </div>
 
@@ -61,12 +62,19 @@
                     <label for="weakness">Weakness of the Hero</label>
                     <input type="text" id="weakness" name="weakness" class="form-control" required>
                 </div>
+                <div class="form-group">
+                    <label for="defense">Defense of the Hero</label>
+                    <input type="text" id="defense" name="defense" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="attack">Attack of the Hero</label>
+                    <input type="text" id="attack" name="attack" class="form-control" required>
+                </div>
 
-
-                <button class="btn btn-outline-secondary" type="submit">Save</button>
+                <button type="button" class="btn btn-success">Success</button>
             </form>
         {{/if}}
     </div>
-    </body>
 {{/partial}}
+
 {{> layout.hbs}}

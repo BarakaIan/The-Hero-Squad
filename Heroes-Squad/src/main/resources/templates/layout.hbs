@@ -1,16 +1,19 @@
-<div class="jumbotron hero" >
+
     {{#block "header"}}
         <!DOCTYPE html>
     <html>
     <head>
         <title>{{#block "tittle"}}Hero Squad{{/block}}</title>
 
-        <link href="https://fonts.googleapis.com/css?family=Acme|Bangers|Poppins:500&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&family=Oswald:wght@700&display=swap" rel="stylesheet">
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-        <link rel='stylesheet' type="text/css" href='/css/app.css'>
+        <link rel='stylesheet' type="text/css" href='/css/styles.css'>
+        {{#block "styles"}}{{/block}}
     </head>
     <body>
-    <nav class="navbar justify-content-center bg-dark">
+    <nav class="navbar justify-content-center bg-dark text-white">
         <ul class="nav">
             <li class="nav-item">
 
@@ -29,15 +32,13 @@
 
         </ul>
     </nav>
-<!--    <ul>-->
-<!--        <li><img src='' alt='A photo of a mountain.'/></li>-->
-<!--        <li><img src='/images/rockycoast.jpeg' alt='A photo of a a rocky beach.'/></li>-->
-<!--    </ul>-->
-
-
     {{/block}}
+    <br>
+    <br>
+    <br>
+    <br>
 
-<div class="jumbotron">
+<div class="container">
     <h1 class="text-center">Welcome To The Great Hero Squads</h1>
     <h5 class="text-center">The Superhero Registry</h5>
 </div>
@@ -52,10 +53,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-
-
     </body>
     </html>
     {{/block}}
 
-</div>
+

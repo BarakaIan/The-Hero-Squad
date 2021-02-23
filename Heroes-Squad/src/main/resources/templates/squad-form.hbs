@@ -1,3 +1,7 @@
+{{#partial "styles"}}
+    <link rel='stylesheet' type="text/css" href='/css/styles.css'>
+{{/partial}}
+
 {{#partial "title"}}
     Hello! Let's create a Squad!
 {{/partial}}
@@ -5,7 +9,12 @@
 
 
 {{#partial "content"}}
-    <body style="background-image: url('images/squad1.jpg'); background-size:cover; background-repeat:no-repeat;">
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2 class="text-center">Create a New Squad</h2>
+    <div class = "squad">
     <form action="/success"   method="post">
         <div class="form-group">
             <label for="size">Size of the squad</label>
@@ -24,7 +33,7 @@
         <button class="btn btn-success"type="submit"> Submit</button>
 
     </form>
-    </body>
+    </div>
 {{/partial}}
 
 {{> layout.hbs}}

@@ -4,7 +4,7 @@
 #  by Ian Baraka
 
 ## Description
-# Create an app that allows you to recruit a well-balanced team of superheroes (or any other character-type of your choosing).
+# Create an app that allows you to recruit a well-balanced team of superhereos.
 
 .Create a Hero object: At the very least, they should have a name, age, special power and weakness. Special powers and weaknesses could be freely assignable or you may offer users a pre-determined set to choose from.
 

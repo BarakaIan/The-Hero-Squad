@@ -12,7 +12,7 @@ font-family: 'Oswald', sans-serif;
 text-align: center;
 text-decoration: underline;
 text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
-color: white;
+color: black;
 font-size: large;
 }
 
@@ -59,10 +59,8 @@ border-left: 10px solid rgb(24, 15, 15);
 border-right: 10px solid rgb(24, 15, 15);
 box-shadow: 10px;
 }
-
-success{
-color: white;
-background: dark-blue;
+#Success{
+color: black;
 text-align: center;
 max-width: 500px;
 height: auto;
@@ -77,5 +75,4 @@ border-bottom: 10px solid #888;
 border-left: 10px solid rgb(24, 15, 15);
 border-right: 10px solid rgb(24, 15, 15);
 box-shadow: 10px;
-
 }

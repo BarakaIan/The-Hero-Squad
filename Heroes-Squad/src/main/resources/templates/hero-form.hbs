@@ -1,9 +1,12 @@
 {{#partial "content"}}
-    <body style="background: url('../images/scott-webb.jpg');
+    <body style="background: url('../images/visuals-0RPf107BLek-unsplash.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;');">
+    <br>
+    <br>
+    <br>
     <h2 class="text-center">Create a New Hero</h2>
     <div id="newHeroForm">
         {{#if updateHero}}
@@ -44,6 +47,7 @@
                 <button class="btn btn-outline-secondary" type="submit">Create</button>
             </form>
         {{else}}
+
             <form action="/heroes/new" method="post">
                 <div class="form-group">
                     <label for="name">Name of hero</label>

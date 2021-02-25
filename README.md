@@ -28,12 +28,12 @@ Open project on code editor code .
 Run the project on live server.
 
 ## BDD
-Enter encode or decode or exit app Enter message Enter key Enter exit or continue.
+
 
 ## Bugs
 Currently there are no bugs but i will keep it updated with the latest trends.
 ## Link
-
+https://ian-squad-hero.herokuapp.com/
 
 ## License
 # MIT licence

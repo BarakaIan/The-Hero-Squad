@@ -28,7 +28,15 @@ Open project on code editor code .
 Run the project on live server.
 
 ## BDD
+Create a squad Enter size of the squad.
 
+Enter name of the squad 
+
+Enter cause of the squad
+
+Add hero to the squad
+
+Enter name the hero,   Enter age of the hero,      Enter power of the hero,    Enter weakness of the hero
 
 ## Bugs
 Currently there are no bugs but i will keep it updated with the latest trends.
